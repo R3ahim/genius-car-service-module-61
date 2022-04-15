@@ -18,8 +18,8 @@ const experts = [
 
 const Exparts = () => {
     return (
-        <div className='container mt-5'>
-            <h2>Our Experts</h2>
+        <div id='experts' className='container mt-5'>
+            <h2 className='text-center m-5'>Our Experts</h2>
 
             <div className="row">
                 {
